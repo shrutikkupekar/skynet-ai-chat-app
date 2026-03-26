@@ -1,0 +1,1 @@
+{"statusCode":200,"body":"{\"message\":\"Message stored successfully\",\"data\":{\"conversationId\":\"test-convo\",\"timestamp\":\"2026-02-22T04:43:42.270Z\",\"messageId\":\"44cc2fdd-e394-4232-b74a-880f2c14a542\",\"senderId\":\"user1\",\"content\":\"Hello world\"}}"}
