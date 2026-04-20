@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import CognitoAuthProvider from "./auth-provider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,7 +28,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <CognitoAuthProvider>{children}</CognitoAuthProvider>
       </body>
     </html>
   );
